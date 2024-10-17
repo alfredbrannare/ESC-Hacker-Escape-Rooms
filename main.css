@@ -317,10 +317,102 @@ body {
     font-weight: 700;
     line-height: 18.75px;
     text-align: center;
+    margin-bottom: 56px;
+}
+
+.story{
 
 }
 
+.story header div{
+    background-color: #011827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.story header h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story__button{
+
+}
+
+.story__button--fullstory{
+    border: 2px solid #8ACFE5;
+    border-radius: 4px;
+    color: #8ACFE5;
+    background-color: transparent;
+    width: 308px;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.team__image--img{
+    height: auto;
+    max-height: 460px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.team__header{
+    text-align: left;
+    width: 440px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team__header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    margin-top: 30px;
+    width: 100%; /* Allows the h2 to take the full width of the container */
+    padding: 0;
+}
+
+.team__about {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__about p {
+    font-size: 24px;
+    text-align: left; /* Align the paragraph to the left */
+    margin-top: 20px;
+} 
+
+
+.team__about button{
+    width: 308px;
+    height: 66px;
+    background-color: #E3170A;
+    color: white;
+    font-size: 24px;
+    font-weight: 799;
+    border-radius: 4px;
+    border: none;
+    margin-top: 45px;
+    margin-bottom: 64px;
+}
 
 @media screen and (min-width: 601px) {
 
