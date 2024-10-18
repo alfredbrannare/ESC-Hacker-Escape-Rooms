@@ -6,7 +6,7 @@
 
 html,
 body {
-    background-color: rgb(255, 193, 193);
+    background-color: rgb(255, 255, 255);
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -636,6 +636,10 @@ body {
         margin: 0px;
     }
 
+    .story__text h2{
+        padding: 0px 100px;
+    }
+
     .play__top{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -832,4 +836,49 @@ body {
         padding-left: 5px;
     }
 
+    .story__text h2{
+        padding: 0px 271px;
+    }
+
+    .top__text {
+        padding: 0px 100px;
+    }
+
+    .top__about {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 10px 0px 20px;
+    }
+
+    .top__about p {
+        margin-bottom: 20px;
+    }
+
+    .top__about button {
+        margin: 0px;
+    }
+
+    .bottom__text {
+        padding: 0px 100px;
+    }
+
+    .bottom__about {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 10px 0px 20px;
+    }
+
+    .bottom__about p {
+        margin-bottom: 20px;
+    }
+
+    .bottom__about button {
+        margin: 0px;
+    }
+
+    .play{
+        padding-bottom: 150px;
+    }
 }
