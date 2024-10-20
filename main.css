@@ -39,11 +39,11 @@ body {
     margin-right: 13px;
 }
 
-.hero__image--wide{
+.hero__image--wide {
     display: none;
 }
 
-.hero__image--narrow{
+.hero__image--narrow {
     width: 100%;
     min-height: 274px;
     height: 100%;
@@ -119,15 +119,15 @@ body {
 
 }
 
-.hero__quotes--left{
+.hero__quotes--left {
     display: flex;
 }
 
-.hero__quotes--right{
+.hero__quotes--right {
     display: none;
 }
 
-.hero__quotes article{
+.hero__quotes article {
     justify-content: center;
     margin: 0 5px;
     align-items: center;
@@ -159,7 +159,7 @@ body {
 .hero__quotes p {
     margin-top: 5px;
     font-size: 18px;
-    padding-left: 20px;    
+    padding-left: 20px;
 }
 
 .hero__quotes--right-container {
@@ -267,9 +267,7 @@ body {
 }
 
 
-.challenges__ratings-text span{
-    
-}
+.challenges__ratings-text span {}
 
 .challenges__info {
     display: flex;
@@ -280,18 +278,18 @@ body {
     margin-top: 23px;
 }
 
-.challenges__info span{
+.challenges__info span {
     font-size: 18px;
     line-height: 21.09px;
 }
 
-.challenges__button{
+.challenges__button {
     margin-left: 165.93px;
     margin-bottom: 12px;
 }
 
 
-.challenges__button button{
+.challenges__button button {
     background-color: #E3170A;
     color: white;
     border: none;
@@ -300,7 +298,7 @@ body {
     width: 179.28px;
     height: 44px;
     /* Double check border-radius, says 8px but that seems too much */
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .nav {
@@ -350,11 +348,11 @@ body {
     margin-bottom: 56px;
 }
 
-.story__text h2{
+.story__text h2 {
     padding: 0px 10px;
 }
 
-.story header div{
+.story header div {
     background-color: #011827;
     display: flex;
     justify-content: center;
@@ -362,7 +360,7 @@ body {
     text-align: center;
 }
 
-.story header h2{
+.story header h2 {
     color: white;
     font-size: 28px;
     font-weight: 400;
@@ -371,11 +369,9 @@ body {
     margin-right: auto;
 }
 
-.story__button{
+.story__button {}
 
-}
-
-.story__button--fullstory{
+.story__button--fullstory {
     border: 2px solid #8ACFE5;
     border-radius: 4px;
     color: #8ACFE5;
@@ -394,25 +390,25 @@ body {
     width: 100%;
 }
 
-.top__image--img{
+.top__image--img {
     height: auto;
     max-height: 460px;
     width: 100%;
     max-width: 100%;
 }
 
-.top__image--img--wide{
+.top__image--img--wide {
     display: none;
 }
 
-.top__header{
-    width: 100%; 
+.top__header {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     text-align: center;
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -421,7 +417,7 @@ body {
     font-weight: 700;
     line-height: 37.5px;
     margin-top: 30px;
-    width: 100%; 
+    width: 100%;
     padding: 0;
     text-align: left;
 }
@@ -437,10 +433,10 @@ body {
     font-size: 24px;
     text-align: left;
     margin-top: 20px;
-} 
+}
 
 
-.top__about button{
+.top__about button {
     width: 308px;
     height: 66px;
     background-color: #E3170A;
@@ -453,25 +449,25 @@ body {
     margin-bottom: 64px;
 }
 
-.bottom__image--img{
+.bottom__image--img {
     height: auto;
     max-height: 460px;
     width: 100%;
     max-width: 100%;
 }
 
-.bottom__image--img--wide{
+.bottom__image--img--wide {
     display: none;
 }
 
-.bottom__header{
-    width: 100%; 
+.bottom__header {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     text-align: center;
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -480,7 +476,7 @@ body {
     font-weight: 700;
     line-height: 37.5px;
     margin-top: 30px;
-    width: 100%; 
+    width: 100%;
     padding-right: 10px;
     text-align: left;
 }
@@ -496,10 +492,10 @@ body {
     font-size: 24px;
     text-align: left;
     margin-top: 20px;
-} 
+}
 
 
-.bottom__about button{
+.bottom__about button {
     width: 308px;
     height: 66px;
     background-color: #E3170A;
@@ -512,7 +508,7 @@ body {
     margin-bottom: 80px;
 }
 
-.footer{
+.footer {
     background-color: #011827;
     color: white;
     display: flex;
@@ -522,31 +518,31 @@ body {
     margin-right: auto;
 }
 
-.footer__about{
+.footer__about {
     font-size: 18px;
 }
 
-.footer__about span{
+.footer__about span {
 
     font-weight: 700;
 }
 
-.footer__about p{
+.footer__about p {
     padding: 7px 0px 40px;
 }
 
-.footer__nav{
+.footer__nav {
     font-size: 18px;
     display: flex;
     flex-direction: column;
 }
 
-.footer__nav--sitemap{
+.footer__nav--sitemap {
     display: flex;
     flex-direction: column;
 }
 
-.footer__nav--play{
+.footer__nav--play {
     display: flex;
     flex-direction: column;
     padding: 25px 0px 47px;
@@ -558,12 +554,12 @@ body {
     padding: ;
 }
 
-.footer__nav--sitemap--head{
+.footer__nav--sitemap--head {
     padding: 0px 0px 7px;
     font-weight: 700;
 }
 
-.footer__nav--socialmedia--head{
+.footer__nav--socialmedia--head {
     padding: 0px 0px 7px;
     font-weight: 700;
 }
@@ -572,15 +568,15 @@ body {
     .hero__image--narrow {
         display: none;
     }
-    
-    .hero__image--wide{
+
+    .hero__image--wide {
         display: block;
         height: auto;
         width: 100%;
         min-height: auto;
     }
 
-    .hero__buttons{
+    .hero__buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -591,7 +587,7 @@ body {
         margin-top: -37px;
     }
 
-    .hero__button--online{
+    .hero__button--online {
         background-color: #E3170A;
         color: white;
         font-size: 24px;
@@ -605,7 +601,7 @@ body {
         order: 1;
     }
 
-    .hero__quotes h2{
+    .hero__quotes h2 {
         font-size: 24px;
         font-style: italic;
         font-weight: 400;
@@ -617,28 +613,28 @@ body {
         flex-direction: row;
         margin-top: 100px;
     }
-    
-    .hero__quotes article{
+
+    .hero__quotes article {
         justify-content: center;
         margin: 0 5px;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
         height: auto;
-        padding: 0px;
+        padding: 60px 30px 0px 20px;
     }
-    
+
     .hero__quotes figure {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .hero__quotes img {
         width: 96px;
         height: 96px;
     }
-    
+
     .hero__quotes h2 {
         font-size: 24px;
         font-style: italic;
@@ -646,20 +642,20 @@ body {
         line-height: 28.13px;
         padding-left: 20px;
     }
-    
+
     .hero__quotes p {
         margin-top: 5px;
         font-size: 18px;
         padding-left: 20px;
-        padding-right: 140px;    
+        padding-right: 140px;
     }
 
-    .hero__quotes--left-container{
+    .hero__quotes--left-container {
         padding-left: 100px;
         padding-right: 5px;
     }
 
-    .challenges__main--buttons{
+    .challenges__main--buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -667,11 +663,11 @@ body {
         margin-left: auto;
         margin-right: auto;
         gap: 17px;
-        margin-top: 87px;     
+        margin-top: 87px;
         margin-bottom: 87px;
     }
 
-    .challenges__main--buttons-online{
+    .challenges__main--buttons-online {
         background-color: #E3170A;
         color: white;
         font-size: 24px;
@@ -686,21 +682,21 @@ body {
         margin: 0px;
     }
 
-    .challenges__main--buttons-onsite{
+    .challenges__main--buttons-onsite {
         margin: 0px;
     }
 
-    .story__text h2{
+    .story__text h2 {
         padding: 0px 100px;
     }
 
-    .play__top{
+    .play__top {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
 
-    .top__header h2{
+    .top__header h2 {
         margin-top: 60px;
     }
 
@@ -708,83 +704,87 @@ body {
         margin: 15px 0px;
     }
 
-    .top__image--img{
+    .top__image--img {
         display: none;
     }
 
-    .top__image--img--wide{
+    .top__image--img--wide {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .play__bottom{
+    .play {
+        padding-bottom: 100px;
+    }
+
+    .play__bottom {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
     }
 
-    .bottom__text{
+    .bottom__text {
         grid-column: 1;
         grid-row: 1;
     }
 
-    .bottom__header h2{
+    .bottom__header h2 {
         margin-top: 60px;
     }
 
     .bottom__about p {
         margin: 15px 0px;
     }
-    
-    .bottom__image--img{
+
+    .bottom__image--img {
         display: none;
     }
 
-    .bottom__image--img--wide{
+    .bottom__image--img--wide {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .bottom__image{
+    .bottom__image {
         grid-column: 2;
     }
 
-    .header{
+    .header {
         display: flex;
         flex-direction: row;
     }
 
-    .header__heading{
+    .header__heading {
         max-width: 500px;
         max-height: 500px;
         margin-top: 25px;
     }
 
-    .header__heading--text{
+    .header__heading--text {
         font-size: 40px;
         margin-left: 20px;
         padding: 0px;
     }
 
-    
+
 
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1025px) {
 
-    .hero img{
+    .hero img {
         height: auto;
     }
 
-    .hero__quotes--right{
+    .hero__quotes--right {
         display: flex;
     }
 
-    .hero__quotes h2{
+    .hero__quotes h2 {
         font-size: 24px;
         font-style: italic;
         font-weight: 400;
@@ -796,8 +796,8 @@ body {
         flex-direction: row;
         margin-top: 100px;
     }
-    
-    .hero__quotes article{
+
+    .hero__quotes article {
         justify-content: center;
         margin: 0 5px;
         align-items: center;
@@ -806,18 +806,18 @@ body {
         height: auto;
         padding: 0px;
     }
-    
+
     .hero__quotes figure {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .hero__quotes img {
         width: 96px;
         height: 96px;
     }
-    
+
     .hero__quotes h2 {
         font-size: 24px;
         font-style: italic;
@@ -825,20 +825,20 @@ body {
         line-height: 28.13px;
         padding-left: 20px;
     }
-    
+
     .hero__quotes p {
         margin-top: 5px;
         font-size: 18px;
         padding-left: 20px;
-        padding-right: 140px;    
+        padding-right: 140px;
     }
 
-    .hero__quotes--left-container{
+    .hero__quotes--left-container {
         padding-left: 100px;
         padding-right: 5px;
     }
 
-    .hero__quotes--right-container{
+    .hero__quotes--right-container {
         padding-right: 100px;
         padding-left: 5px;
     }
@@ -846,13 +846,13 @@ body {
 }
 
 @media screen and (min-width: 1170px) {
-    .hero__image--wide{
+    .hero__image--wide {
         display: block;
         min-height: 468px;
         object-fit: fill;
     }
 
-    .hero img{
+    .hero img {
         height: 600px;
         width: 100%;
     }
@@ -864,14 +864,14 @@ body {
         align-items: start;
     }
 
-    .nav{
+    .nav {
         display: flex;
         flex-direction: row;
         width: 100%;
         align-items: center;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         margin-bottom: 20px;
-        
+
     }
 
     .nav__list {
@@ -881,16 +881,17 @@ body {
         padding: 0;
     }
 
-    .nav__item{
+    .nav__item {
         margin-right: 5px;
         font-weight: 700;
     }
-    .nav__item--contact{
+
+    .nav__item--contact {
         color: #8ACFE5;
         font-weight: 700;
     }
 
-    .nav a{
+    .nav a {
         color: inherit;
         display: flex;
         flex-direction: row;
@@ -902,8 +903,8 @@ body {
         width: 96px;
         height: 96px;
     }
-    
-    .story__text h2{
+
+    .story__text h2 {
         padding: 0px 271px;
     }
 
@@ -930,6 +931,10 @@ body {
         padding: 0px 100px;
     }
 
+    .play {
+        padding-bottom: 150px;
+    }
+
     .bottom__about {
         width: 100%;
         margin-left: auto;
@@ -945,40 +950,36 @@ body {
         margin: 0px;
     }
 
-    .play{
-        padding-bottom: 150px;
-    }
-
-    .challenges__cards{
+    .challenges__cards {
         display: flex;
         justify-content: center;
         overflow-x: hidden;
         padding-left: 0px;
     }
 
-    .footer{
+    .footer {
         flex-direction: row;
         padding-bottom: 100px;
-        padding-top: 100px;
+        padding-top: 120px;
     }
 
-    .footer__about{
+    .footer__about {
         padding: 0px 280px 0px 100px;
     }
 
-    .footer__nav{
+    .footer__nav {
         display: grid;
         grid-template-columns: 200px 200px;
         grid-template-rows: 1fr 1fr;
     }
 
-    .footer__nav--play{
+    .footer__nav--play {
         grid-row: 2;
         grid-column: 1;
         padding-top: 15px;
     }
 
-    .footer__nav--socialmedia{
+    .footer__nav--socialmedia {
         grid-row: 1;
         grid-column: 2;
     }
