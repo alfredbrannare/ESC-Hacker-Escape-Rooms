@@ -10,6 +10,7 @@ body {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    max-width: 1700px;
 }
 
 .container {
@@ -982,5 +983,12 @@ body {
     .footer__nav--socialmedia {
         grid-row: 1;
         grid-column: 2;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    html{
+        display: flex;
+        margin: auto;
     }
 }
