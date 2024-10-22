@@ -330,9 +330,10 @@ body {
     padding: 0px 10px;
 }
 
-.story header div {
+.story header {
     background-color: #011827;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -345,9 +346,10 @@ body {
     margin-top: 95px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 632px;
 }
 
-.story__button {}
+
 
 .story__button--fullstory {
     border: 2px solid #8ACFE5;
@@ -379,18 +381,7 @@ body {
     display: none;
 }
 
-.top__header {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 20px;
-}
-
-
-.top__header h2 {
+.top__text h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 37.5px;
@@ -398,6 +389,7 @@ body {
     width: 100%;
     padding: 0;
     text-align: left;
+    padding-left: 20px;
 }
 
 .top__about {
@@ -438,18 +430,7 @@ body {
     display: none;
 }
 
-.bottom__header {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 20px;
-}
-
-
-.bottom__header h2 {
+.bottom__text h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 37.5px;
@@ -457,6 +438,7 @@ body {
     width: 100%;
     padding-right: 10px;
     text-align: left;
+    padding-left: 20px;
 }
 
 .bottom__about {
@@ -674,7 +656,15 @@ body {
         grid-template-rows: auto auto;
     }
 
-    .top__header h2 {
+    .top__text{
+        margin: auto;
+    }
+
+    .bottom__text{
+        margin: auto;
+    }
+
+    .top__text h2 {
         margin-top: 60px;
     }
 
@@ -708,7 +698,7 @@ body {
         grid-row: 1;
     }
 
-    .bottom__header h2 {
+    .bottom__text h2 {
         margin-top: 60px;
     }
 
@@ -912,6 +902,14 @@ body {
         padding: 0px 271px;
     }
 
+    .story header h2 {
+        margin-top: 115px;
+    }
+
+    .story__button--fullstory {
+        margin-bottom: 135px;
+    }
+
     .top__text {
         padding: 0px 100px;
     }
@@ -952,10 +950,6 @@ body {
 
     .bottom__about button {
         margin: 0px;
-    }
-
-    .bottom__header h2 {
-        padding-right: 0px;
     }
 
     .challenges__cards {
