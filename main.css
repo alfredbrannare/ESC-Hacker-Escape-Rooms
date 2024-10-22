@@ -910,6 +910,13 @@ body {
         margin-bottom: 135px;
     }
 
+    .top__text h2 {
+        margin-top: 0px;
+    }
+    .bottom__text h2 {
+        margin-top: 0px;
+    }
+
     .top__text {
         padding: 0px 100px;
     }
