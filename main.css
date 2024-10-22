@@ -13,13 +13,6 @@ body {
     max-width: 1700px;
 }
 
-.container {
-    background-color: rgb(255, 255, 255);
-    min-height: 100vh;
-    width: 100%;
-    min-width: 100%;
-}
-
 .header {
     background-color: #011827;
     color: #FFFFFF;
