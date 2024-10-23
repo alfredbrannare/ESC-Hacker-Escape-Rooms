@@ -498,6 +498,7 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 20px 0px;
   }
   .main .play .play__top .top__text h2 {
     margin: 0px 30px 20px 10px;
@@ -633,6 +634,7 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 20px 0px;
   }
   .main .play .play__bottom .bottom__text h2 {
     margin: 0px 0px 20px 10px;
