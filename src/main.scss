@@ -1,11 +1,18 @@
 @mixin desktop-screen {
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1280px) {
+        @content;
+    }
+    
+}
+
+@mixin tablet-screen {
+    @media screen and (min-width: 844px) {
         @content;
     }
 }
 
-@mixin tablet-screen {
-    @media screen and (min-width: 768px) {
+@mixin big-tablet-screen {
+    @media screen and (min-width: 1180px){
         @content;
     }
 }
@@ -190,6 +197,20 @@ body {
 
         }
 
+        @include tablet-screen{
+            img {
+                max-height: 470px;
+            }
+
+            .hero__image--narrow {
+                display: none;
+            }
+
+            .hero__image--wide {
+                display: block;
+            }
+        }
+
         //Navigation buttons
         nav {
             display: flex;
@@ -248,6 +269,13 @@ body {
                 justify-content: center;
             }
 
+            @include big-tablet-screen{
+                display: flex;
+                flex-direction: row;
+                margin: 108px auto;
+                justify-content: center;
+            }
+
             blockquote {
                 width: auto;
                 max-width: 522px;
@@ -260,6 +288,12 @@ body {
                     padding: 0px;
                 }
 
+                
+                @include big-tablet-screen {
+                    margin: 0px;
+                    padding: 0px;
+                }
+
                 figure {
                     display: flex;
                     flex-direction: row;
@@ -267,6 +301,11 @@ body {
                     justify-content: center;
 
                     @include desktop-screen {
+                        padding: 0px;
+                    }
+
+                    
+                    @include big-tablet-screen {
                         padding: 0px;
                     }
 
@@ -292,6 +331,11 @@ body {
                                 padding-top: 10px;
                                 padding-right: 150px;
                             }
+
+                            @include big-tablet-screen {
+                                padding-top: 10px;
+                                padding-right: 150px;
+                            }
                         }
                     }
 
@@ -302,6 +346,12 @@ body {
                 }
 
                 @include desktop-screen {
+                    .hero__quotes--right-container {
+                        display: flex;
+                    }
+                }
+
+                @include big-tablet-screen{
                     .hero__quotes--right-container {
                         display: flex;
                     }
@@ -541,12 +591,56 @@ body {
 
         }
 
+        @include tablet-screen{
+            .play__top {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 460px;
+
+                .top__text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    h2{
+                        margin: 0px 30px 20px 10px;
+                    }
+
+                    .top__about {
+                        padding: 0px 30px 20px 10px;
+                    }
+
+                }
+                
+                
+                img{
+                    min-height: 460px;
+                    object-fit: cover;
+                }
+            }
+        }
+
         .play__top {
+
+            figure {
+                width: 100%;
+                height: auto;
+
+                img {
+                    width: 100%;
+                }
+            }
 
             .top__image--img--wide {
                 display: none;
 
                 @include desktop-screen {
+                    display: flex;
+                }
+
+                @include tablet-screen{
                     display: flex;
                 }
             }
@@ -555,6 +649,10 @@ body {
                 @include desktop-screen {
                     display: none;
                 }
+
+                @include tablet-screen{
+                    display: none
+                }
             }
 
             @include play-article-info;
@@ -562,16 +660,34 @@ body {
         }
 
         .play__bottom {
+
+            figure {
+                width: 100%;
+                height: auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+
             .bottom__image--img--wide {
                 display: none;
 
                 @include desktop-screen {
                     display: flex;
                 }
+
+                @include tablet-screen{
+                    display: flex;
+                }
             }
 
             .bottom__image--img {
                 @include desktop-screen {
+                    display: none;
+                }
+
+                @include tablet-screen{
                     display: none;
                 }
             }
@@ -582,6 +698,45 @@ body {
                 margin-bottom: 30px;
             }
 
+        }
+
+        @include tablet-screen{
+            .play__bottom {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 460px;
+
+                .bottom__text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    h2{
+                        margin: 0px 0px 20px 10px;
+                    }
+
+                    .bottom__about {
+                        padding: 0px 30px 20px 10px;
+                    }
+
+                }
+                
+                
+                img{
+                    min-height: 460px;
+                    object-fit: cover;
+                    grid-row: 1;
+                    grid-column: 2;
+                }
+
+                .bottom__text {
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-bottom: 0px;
+                }
+            }
         }
 
     }
@@ -598,6 +753,7 @@ body {
             flex-direction: row;
             padding: 80px 21px 100px;
         }
+
 
         h2 {
             font-size: 18px;
@@ -630,6 +786,7 @@ body {
                     margin-bottom: 7px;
                 }
             }
+
 
             @include desktop-screen{
                 .footer__nav--play {

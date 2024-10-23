@@ -21,7 +21,7 @@ body {
   padding: 25px 20px 35px;
   color: white;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .header {
     padding: 25px 20px 22px;
   }
@@ -41,7 +41,7 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .header section h1 {
     margin-top: 30px;
     font-size: 40px;
@@ -51,7 +51,7 @@ body {
 .header .nav {
   display: none;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .header .nav {
     display: flex;
     flex-direction: row;
@@ -88,7 +88,18 @@ body {
 .main .hero .hero__image--wide {
   display: none;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero img {
+    max-height: 470px;
+  }
+  .main .hero .hero__image--narrow {
+    display: none;
+  }
+  .main .hero .hero__image--wide {
+    display: block;
+  }
+}
+@media screen and (min-width: 844px) {
   .main .hero img {
     max-height: 470px;
   }
@@ -104,7 +115,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .hero nav {
     margin-top: -33px;
   }
@@ -112,12 +123,12 @@ body {
 .main .hero nav button {
   font-weight: 700;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .hero nav button {
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .hero nav {
     flex-direction: row;
     justify-content: center;
@@ -133,7 +144,7 @@ body {
   text-decoration: underline;
   color: #36769D;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .hero nav .hero__button--online {
     order: 1;
     order: 1;
@@ -159,13 +170,21 @@ body {
   border-radius: 4px;
   margin: 37px 0px 30px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .hero nav .hero__button--onsite {
     order: 2;
     margin: 0px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero article {
+    display: flex;
+    flex-direction: row;
+    margin: 108px auto;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1180px) {
   .main .hero article {
     display: flex;
     flex-direction: row;
@@ -180,7 +199,13 @@ body {
   padding: 60px 0px 0px;
   height: auto;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero article blockquote {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1180px) {
   .main .hero article blockquote {
     margin: 0px;
     padding: 0px;
@@ -192,7 +217,12 @@ body {
   padding: 0px 20px;
   justify-content: center;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero article blockquote figure {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1180px) {
   .main .hero article blockquote figure {
     padding: 0px;
   }
@@ -213,7 +243,13 @@ body {
   padding-top: 5px;
   font-size: 18px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero article blockquote figure figcaption p {
+    padding-top: 10px;
+    padding-right: 150px;
+  }
+}
+@media screen and (min-width: 1180px) {
   .main .hero article blockquote figure figcaption p {
     padding-top: 10px;
     padding-right: 150px;
@@ -222,7 +258,12 @@ body {
 .main .hero article blockquote .hero__quotes--right-container {
   display: none;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
+  .main .hero article blockquote .hero__quotes--right-container {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1180px) {
   .main .hero article blockquote .hero__quotes--right-container {
     display: flex;
   }
@@ -240,7 +281,7 @@ body {
   padding: 44px 10px 47px 52px;
   overflow-x: scroll;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges .challenges__cards {
     padding-top: 65px;
   }
@@ -254,7 +295,7 @@ body {
   margin-right: 37px;
   border-radius: 8px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges .challenges__cards article {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   }
@@ -283,7 +324,7 @@ body {
   margin-left: 10px;
   font-size: 14px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges .challenges__cards article section .challenges__rating span {
     margin-left: 130px;
   }
@@ -309,7 +350,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges nav {
     flex-direction: row;
   }
@@ -326,7 +367,7 @@ body {
   margin: 0px 0px 0px 15px;
   order: 1;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges nav .challenges__main--buttons-onsite {
     margin-top: 40px;
     margin-bottom: 37px;
@@ -343,7 +384,7 @@ body {
   text-decoration: underline;
   color: #36769D;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .challenges nav .challenges__main--buttons-online {
     order: 1;
     background-color: #E3170A;
@@ -389,12 +430,12 @@ body {
   color: #8ACFE5;
   border: 2px solid #8ACFE5;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .story header button {
     margin: 30px 0px 40px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .play .play__top {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -422,12 +463,12 @@ body {
     grid-template-rows: 460px;
   }
 }
-@media screen and (min-width: 1025px) and (min-width: 1025px) {
+@media screen and (min-width: 1280px) and (min-width: 1280px) {
   .main .play .play__bottom {
     margin-bottom: 180px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .play .play__bottom img {
     grid-row: 1;
     grid-column: 2;
@@ -445,15 +486,56 @@ body {
     padding-bottom: 25px;
   }
 }
+@media screen and (min-width: 844px) {
+  .main .play .play__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 460px;
+  }
+  .main .play .play__top .top__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main .play .play__top .top__text h2 {
+    margin: 0px 30px 20px 10px;
+  }
+  .main .play .play__top .top__text .top__about {
+    padding: 0px 30px 20px 10px;
+  }
+  .main .play .play__top img {
+    min-height: 460px;
+    object-fit: cover;
+  }
+}
+.main .play .play__top figure {
+  width: 100%;
+  height: auto;
+}
+.main .play .play__top figure img {
+  width: 100%;
+}
 .main .play .play__top .top__image--img--wide {
   display: none;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .play .play__top .top__image--img--wide {
     display: flex;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 844px) {
+  .main .play .play__top .top__image--img--wide {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main .play .play__top .top__image--img {
+    display: none;
+  }
+}
+@media screen and (min-width: 844px) {
   .main .play .play__top .top__image--img {
     display: none;
   }
@@ -482,15 +564,32 @@ body {
   border-radius: 4px;
   text-decoration: none;
 }
+.main .play .play__bottom figure {
+  width: 100%;
+  height: auto;
+}
+.main .play .play__bottom figure img {
+  width: 100%;
+}
 .main .play .play__bottom .bottom__image--img--wide {
   display: none;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main .play .play__bottom .bottom__image--img--wide {
     display: flex;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 844px) {
+  .main .play .play__bottom .bottom__image--img--wide {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main .play .play__bottom .bottom__image--img {
+    display: none;
+  }
+}
+@media screen and (min-width: 844px) {
   .main .play .play__bottom .bottom__image--img {
     display: none;
   }
@@ -522,6 +621,37 @@ body {
 .main .play .play__bottom article {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 844px) {
+  .main .play .play__bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 460px;
+  }
+  .main .play .play__bottom .bottom__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main .play .play__bottom .bottom__text h2 {
+    margin: 0px 0px 20px 10px;
+  }
+  .main .play .play__bottom .bottom__text .bottom__about {
+    padding: 0px 30px 20px 10px;
+  }
+  .main .play .play__bottom img {
+    min-height: 460px;
+    object-fit: cover;
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .main .play .play__bottom .bottom__text {
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 0px;
+  }
+}
 .main footer {
   background-color: #011827;
   color: white;
@@ -530,7 +660,7 @@ body {
   font-size: 18px;
   padding: 80px 21px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main footer {
     flex-direction: row;
     padding: 80px 21px 100px;
@@ -541,7 +671,7 @@ body {
   font-weight: 700;
   margin-bottom: 7px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main footer article {
     max-width: 416px;
     margin: 64px 230px 40px 100px;
@@ -551,7 +681,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main footer nav {
     margin: 64px 50px 40px;
     display: grid;
@@ -564,7 +694,7 @@ body {
     margin-bottom: 7px;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main footer nav .footer__nav--play {
     grid-row: 2;
     grid-column: 1;
@@ -580,7 +710,7 @@ body {
   flex-direction: column;
   margin-top: 47px;
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .main footer nav section {
     margin-top: 0px;
   }
