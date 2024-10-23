@@ -115,7 +115,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1180px) {
   .main .hero nav {
     margin-top: -33px;
   }
@@ -123,12 +123,12 @@ body {
 .main .hero nav button {
   font-weight: 700;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1180px) {
   .main .hero nav button {
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1180px) {
   .main .hero nav {
     flex-direction: row;
     justify-content: center;
@@ -144,7 +144,7 @@ body {
   text-decoration: underline;
   color: #36769D;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1180px) {
   .main .hero nav .hero__button--online {
     order: 1;
     order: 1;
@@ -170,7 +170,7 @@ body {
   border-radius: 4px;
   margin: 37px 0px 30px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1180px) {
   .main .hero nav .hero__button--onsite {
     order: 2;
     margin: 0px;
@@ -258,14 +258,10 @@ body {
 .main .hero article blockquote .hero__quotes--right-container {
   display: none;
 }
-@media screen and (min-width: 1280px) {
-  .main .hero article blockquote .hero__quotes--right-container {
-    display: flex;
-  }
-}
 @media screen and (min-width: 1180px) {
   .main .hero article blockquote .hero__quotes--right-container {
     display: flex;
+    margin-left: 5px;
   }
 }
 .main .challenges .challenges__header {
@@ -337,7 +333,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   color: white;
   height: 44px;
   width: 180px;
@@ -416,6 +412,7 @@ body {
   font-size: 28px;
   text-align: center;
   max-width: 632px;
+  padding-bottom: 10px;
 }
 .main .story header button {
   background-color: #8ACFE5;
@@ -480,7 +477,7 @@ body {
     grid-row: 1;
     grid-column: 1;
     margin: 0px auto;
-    padding: 60px 115px 66px;
+    padding: 60px 105px 66px;
   }
   .main .play .play__bottom .bottom__about p {
     padding-bottom: 25px;
@@ -498,13 +495,6 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 20px 0px;
-  }
-  .main .play .play__top .top__text h2 {
-    margin: 0px 30px 20px 10px;
-  }
-  .main .play .play__top .top__text .top__about {
-    padding: 0px 30px 20px 10px;
   }
   .main .play .play__top img {
     min-height: 460px;
@@ -634,24 +624,15 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 20px 0px;
-  }
-  .main .play .play__bottom .bottom__text h2 {
-    margin: 0px 0px 20px 10px;
-  }
-  .main .play .play__bottom .bottom__text .bottom__about {
-    padding: 0px 30px 20px 10px;
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 0px;
   }
   .main .play .play__bottom img {
     min-height: 460px;
     object-fit: cover;
     grid-row: 1;
     grid-column: 2;
-  }
-  .main .play .play__bottom .bottom__text {
-    grid-row: 1;
-    grid-column: 1;
-    margin-bottom: 0px;
   }
 }
 .main footer {

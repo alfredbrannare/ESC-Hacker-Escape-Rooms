@@ -217,19 +217,19 @@ body {
             flex-direction: column;
             align-items: center;
 
-            @include desktop-screen {
+            @include big-tablet-screen {
                 margin-top: -33px;
             }
 
             button {
                 font-weight: 700;
 
-                @include desktop-screen {
+                @include big-tablet-screen {
                     margin-right: 15px;
                 }
             }
 
-            @include desktop-screen {
+            @include big-tablet-screen {
                 flex-direction: row;
                 justify-content: center;
             }
@@ -239,7 +239,7 @@ body {
                 @include online-button-before;
             }
 
-            @include desktop-screen {
+            @include big-tablet-screen {
                 .hero__button--online {
                     order: 1;
                     @include online-button-after;
@@ -251,7 +251,7 @@ body {
                 @include onsite-button;
             }
 
-            @include desktop-screen {
+            @include big-tablet-screen {
                 .hero__button--onsite {
                     order: 2;
                     margin: 0px;
@@ -345,15 +345,10 @@ body {
                     display: none;
                 }
 
-                @include desktop-screen {
-                    .hero__quotes--right-container {
-                        display: flex;
-                    }
-                }
-
                 @include big-tablet-screen{
                     .hero__quotes--right-container {
                         display: flex;
+                        margin-left: 5px;
                     }
                 }
 
@@ -438,7 +433,7 @@ body {
                         font-size: 16px;
                         font-weight: 700;
                         border: none;
-                        border-radius: 2px;
+                        border-radius: 4px;
                         color: white;
                         height: 44px;
                         width: 180px;
@@ -505,6 +500,7 @@ body {
                 font-size: 28px;
                 text-align: center;
                 max-width: 632px;
+                padding-bottom: 10px;
             }
 
             button {
@@ -576,7 +572,7 @@ body {
                     grid-row: 1;
                     grid-column: 1;
                     margin: 0px auto;
-                    padding: 60px 115px 66px;
+                    padding: 60px 105px 66px;
                 }
 
                 .bottom__about {
@@ -603,14 +599,13 @@ body {
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-                    padding: 0px 20px 0px;
 
                     h2{
-                        margin: 0px 30px 20px 10px;
+                        // margin: 0px 30px 20px 10px;
                     }
 
                     .top__about {
-                        padding: 0px 30px 20px 10px;
+                        // padding: 0px 30px 20px 10px;
                     }
 
                 }
@@ -713,14 +708,17 @@ body {
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-                    padding: 0px 20px 0px;
+                    // padding: 0px 20px 0px;
+                    grid-row: 1;
+                    grid-column: 1;
+                    margin-bottom: 0px;
 
                     h2{
-                        margin: 0px 0px 20px 10px;
+                        // margin: 0px 0px 20px 10px;
                     }
 
                     .bottom__about {
-                        padding: 0px 30px 20px 10px;
+                        // padding: 0px 30px 20px 10px;
                     }
 
                 }
@@ -733,11 +731,6 @@ body {
                     grid-column: 2;
                 }
 
-                .bottom__text {
-                    grid-row: 1;
-                    grid-column: 1;
-                    margin-bottom: 0px;
-                }
             }
         }
 
