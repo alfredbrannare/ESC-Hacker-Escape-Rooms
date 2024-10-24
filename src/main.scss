@@ -26,6 +26,9 @@
     height: 66px;
     border-radius: 4px;
     margin: 37px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @mixin online-button-before {
@@ -49,6 +52,22 @@
     height: 66px;
     border-radius: 4px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin challenges-card-button {
+    background-color: #E3170A;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 35px;
+    margin-top: 20px;
+    margin-left: 150px;
+    display: inline-block;
 }
 
 @mixin play-article-info {
@@ -67,15 +86,13 @@
             padding-bottom: 50px;
         }
 
-        button {
+        a {
             @include online-button-after;
         }
 
     }
 
 }
-
-
 
 * {
     margin: 0;
@@ -215,7 +232,7 @@ body {
                 margin-top: -33px;
             }
 
-            button {
+            a {
                 font-weight: 700;
 
                 @include big-tablet-screen {
@@ -278,7 +295,7 @@ body {
                 width: auto;
                 max-width: 522px;
                 margin: 0px auto;
-                padding: 60px 0px 0px;
+                padding: 60px 0px 20px;
                 height: auto;
 
                 @include desktop-screen {
@@ -440,17 +457,8 @@ body {
                         font-size: 18px;
                     }
 
-                    button {
-                        background-color: #E3170A;
-                        font-size: 16px;
-                        font-weight: 700;
-                        border: none;
-                        border-radius: 4px;
-                        color: white;
-                        height: 44px;
-                        width: 180px;
-                        margin-left: 148px;
-                        margin-top: 20px;
+                    a {
+                        @include challenges-card-button;
                     }
 
                 }
@@ -518,7 +526,7 @@ body {
                 padding-bottom: 10px;
             }
 
-            button {
+            a {
                 @include onsite-button;
                 background-color: transparent;
                 color: #8ACFE5;

@@ -88,17 +88,6 @@ body {
 .main .hero .hero__image--wide {
   display: none;
 }
-@media screen and (min-width: 1280px) {
-  .main .hero img {
-    max-height: 470px;
-  }
-  .main .hero .hero__image--narrow {
-    display: none;
-  }
-  .main .hero .hero__image--wide {
-    display: block;
-  }
-}
 @media screen and (min-width: 844px) {
   .main .hero img {
     max-height: 470px;
@@ -120,11 +109,11 @@ body {
     margin-top: -33px;
   }
 }
-.main .hero nav button {
+.main .hero nav a {
   font-weight: 700;
 }
 @media screen and (min-width: 1180px) {
-  .main .hero nav button {
+  .main .hero nav a {
     margin-right: 15px;
   }
 }
@@ -157,6 +146,9 @@ body {
     height: 66px;
     border-radius: 4px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .main .hero nav .hero__button--onsite {
@@ -169,6 +161,9 @@ body {
   height: 66px;
   border-radius: 4px;
   margin: 37px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 1180px) {
   .main .hero nav .hero__button--onsite {
@@ -196,7 +191,7 @@ body {
   width: auto;
   max-width: 522px;
   margin: 0px auto;
-  padding: 60px 0px 0px;
+  padding: 60px 0px 20px;
   height: auto;
 }
 @media screen and (min-width: 1280px) {
@@ -282,6 +277,11 @@ body {
     padding-top: 65px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .main .challenges .challenges__cards {
+    overflow-x: hidden;
+  }
+}
 .main .challenges .challenges__cards article {
   min-width: 363px;
   min-height: 446px;
@@ -328,17 +328,17 @@ body {
 .main .challenges .challenges__cards article section .challenges__info {
   font-size: 18px;
 }
-.main .challenges .challenges__cards article section button {
+.main .challenges .challenges__cards article section a {
   background-color: #E3170A;
   font-size: 16px;
   font-weight: 700;
   border: none;
   border-radius: 4px;
   color: white;
-  height: 44px;
-  width: 180px;
-  margin-left: 148px;
+  padding: 12px 35px;
   margin-top: 20px;
+  margin-left: 150px;
+  display: inline-block;
 }
 .main .challenges nav {
   display: flex;
@@ -360,6 +360,9 @@ body {
   height: 66px;
   border-radius: 4px;
   margin: 37px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px 0px 0px 15px;
   order: 1;
 }
@@ -392,6 +395,9 @@ body {
     height: 66px;
     border-radius: 4px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
     margin-bottom: 37px;
   }
@@ -414,7 +420,7 @@ body {
   max-width: 632px;
   padding-bottom: 10px;
 }
-.main .story header button {
+.main .story header a {
   background-color: #8ACFE5;
   border: none;
   font-size: 24px;
@@ -423,12 +429,15 @@ body {
   height: 66px;
   border-radius: 4px;
   margin: 37px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   color: #8ACFE5;
   border: 2px solid #8ACFE5;
 }
 @media screen and (min-width: 1280px) {
-  .main .story header button {
+  .main .story header a {
     margin: 30px 0px 40px;
   }
 }
@@ -543,7 +552,7 @@ body {
   font-size: 24px;
   padding-bottom: 50px;
 }
-.main .play .play__top article button {
+.main .play .play__top article a {
   order: 1;
   background-color: #E3170A;
   color: white;
@@ -554,6 +563,9 @@ body {
   height: 66px;
   border-radius: 4px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main .play .play__bottom figure {
   width: 100%;
@@ -597,7 +609,7 @@ body {
   font-size: 24px;
   padding-bottom: 50px;
 }
-.main .play .play__bottom article button {
+.main .play .play__bottom article a {
   order: 1;
   background-color: #E3170A;
   color: white;
@@ -608,6 +620,9 @@ body {
   height: 66px;
   border-radius: 4px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main .play .play__bottom article {
   margin-bottom: 30px;
