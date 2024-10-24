@@ -114,10 +114,10 @@ body {
 .header {
     background-color: #011827;
     width: 100%;
-    padding: 25px 20px 35px;
+    padding: 25px 27px 35px;
 
     @include desktop-screen {
-        padding: 25px 20px 22px;
+        padding: 25px 27px 22px;
     }
 
     color: white;
@@ -133,7 +133,7 @@ body {
         }
 
         h1 {
-            margin: 0px 190px 0px 10px;
+            margin: 0px 190px 0px 13px;
             font-size: 24px;
             font-weight: 700;
             line-height: 24px;
@@ -141,7 +141,7 @@ body {
             @include desktop-screen {
                 margin-top: 30px;
                 font-size: 40px;
-                margin-left: 15px;
+                margin-left: 24px;
             }
 
         }
@@ -156,7 +156,7 @@ body {
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            margin-top: 50px;
+            margin-top: 58px;
 
             ul {
                 list-style: none;
@@ -294,8 +294,11 @@ body {
             blockquote {
                 width: auto;
                 max-width: 522px;
+                @include desktop-screen{
+                    max-width: 545px;
+                }
                 margin: 0px auto;
-                padding: 60px 0px 20px;
+                padding: 67px 0px 20px;
                 height: auto;
 
                 @include desktop-screen {
@@ -327,6 +330,11 @@ body {
                     img {
                         width: 72px;
                         height: 73px;
+                        @include desktop-screen{
+                            width: 96px;
+                            height: 96px;
+                        }
+
                     }
 
                     figcaption {
@@ -344,12 +352,12 @@ body {
 
                             @include desktop-screen {
                                 padding-top: 10px;
-                                padding-right: 150px;
+                                padding-right: 120px;
                             }
 
                             @include big-tablet-screen {
                                 padding-top: 10px;
-                                padding-right: 150px;
+                                padding-right: 120px;
                             }
 
                         }
@@ -366,7 +374,7 @@ body {
 
                     .hero__quotes--right-container {
                         display: flex;
-                        margin-left: 5px;
+                        margin-left: 10px;
                     }
 
                 }
@@ -398,7 +406,8 @@ body {
             padding: 44px 10px 47px 52px;
 
             @include desktop-screen {
-                padding-top: 65px;
+                padding-top: 87px;
+                padding-bottom: 50px;
             }
 
             overflow-x: scroll;
@@ -416,6 +425,7 @@ body {
 
                 @include desktop-screen {
                     box-shadow: 0px 4px 4px 0px #00000040;
+                    margin-right: 42px;
                 }
 
                 margin-right: 37px;
@@ -511,10 +521,13 @@ body {
     }
 
     .story {
-        margin-top: 50px;
+        margin-top: 56px;
 
         header {
-            padding: 90px 0px 90px;
+            padding: 95px 0px 90px;
+            @include desktop-screen{
+                padding-top: 123px;
+            }
             background-color: #011827;
             color: white;
             display: flex;
@@ -534,9 +547,10 @@ body {
                 background-color: transparent;
                 color: #8ACFE5;
                 border: 2px solid #8ACFE5;
+                margin-bottom: 0px;
 
                 @include desktop-screen {
-                    margin: 30px 0px 40px;
+                    margin: 30px 0px 52px;
                 }
 
             }
@@ -630,14 +644,6 @@ body {
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-
-                    h2 {
-                        // margin: 0px 30px 20px 10px;
-                    }
-
-                    .top__about {
-                        // padding: 0px 30px 20px 10px;
-                    }
 
                 }
 
@@ -753,15 +759,6 @@ body {
                     grid-row: 1;
                     grid-column: 1;
                     margin-bottom: 0px;
-
-                    h2 {
-                        // margin: 0px 0px 20px 10px;
-                    }
-
-                    .bottom__about {
-                        // padding: 0px 30px 20px 10px;
-                    }
-
                 }
 
 
@@ -784,7 +781,7 @@ body {
         display: flex;
         flex-direction: column;
         font-size: 18px;
-        padding: 80px 21px;
+        padding: 64px 21px;
 
         @include desktop-screen {
             flex-direction: row;
@@ -812,7 +809,7 @@ body {
             flex-direction: column;
 
             @include desktop-screen {
-                margin: 64px 50px 40px;
+                margin: 64px 50px 40px 0px;
                 display: grid;
                 grid-template-columns: 200px 200px;
                 grid-template-rows: 1fr 1fr;
@@ -825,13 +822,16 @@ body {
 
             }
 
+            .footer__nav--play{
+                margin-top: 22px;
+            }
+
 
             @include desktop-screen {
 
                 .footer__nav--play {
                     grid-row: 2;
                     grid-column: 1;
-                    padding-top: 15px;
                 }
 
                 .footer__nav--socialmedia {
@@ -844,7 +844,7 @@ body {
             section {
                 display: flex;
                 flex-direction: column;
-                margin-top: 47px;
+                margin-top: 40px;
 
                 @include desktop-screen {
                     margin-top: 0px;
