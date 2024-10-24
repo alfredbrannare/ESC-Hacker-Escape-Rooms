@@ -385,6 +385,9 @@ body {
 
             h2 {
                 font-size: 32px;
+                @include desktop-screen{
+                    font-size: 36px;
+                }
             }
 
         }

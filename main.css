@@ -262,9 +262,17 @@ body {
 .main .challenges .challenges__header {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .main .challenges .challenges__header h2 {
   font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1280px) {
+  .main .challenges .challenges__header h2 {
+    font-size: 36px;
+  }
 }
 .main .challenges .challenges__cards {
   display: flex;
