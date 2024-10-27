@@ -273,6 +273,7 @@ body {
                 }
 
             }
+
         }
 
         article {
@@ -294,9 +295,11 @@ body {
             blockquote {
                 width: auto;
                 max-width: 522px;
+
                 @include desktop-screen{
                     max-width: 545px;
                 }
+
                 margin: 0px auto;
                 padding: 67px 0px 20px;
                 height: auto;
@@ -305,7 +308,6 @@ body {
                     margin: 0px;
                     padding: 0px;
                 }
-
 
                 @include big-tablet-screen {
                     margin: 0px;
@@ -322,7 +324,6 @@ body {
                         padding: 0px;
                     }
 
-
                     @include big-tablet-screen {
                         padding: 0px;
                     }
@@ -330,6 +331,7 @@ body {
                     img {
                         width: 72px;
                         height: 73px;
+
                         @include desktop-screen{
                             width: 96px;
                             height: 96px;
@@ -393,9 +395,11 @@ body {
 
             h2 {
                 font-size: 32px;
+
                 @include desktop-screen{
                     font-size: 36px;
                 }
+
             }
 
         }
@@ -525,9 +529,11 @@ body {
 
         header {
             padding: 95px 0px 90px;
+
             @include desktop-screen{
                 padding-top: 123px;
             }
+
             background-color: #011827;
             color: white;
             display: flex;
@@ -644,9 +650,7 @@ body {
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-
                 }
-
 
                 img {
                     min-height: 460px;
@@ -724,6 +728,7 @@ body {
             }
 
             .bottom__image--img {
+
                 @include desktop-screen {
                     display: none;
                 }
@@ -755,7 +760,6 @@ body {
                     justify-content: center;
                     margin-left: auto;
                     margin-right: auto;
-                    // padding: 0px 20px 0px;
                     grid-row: 1;
                     grid-column: 1;
                     margin-bottom: 0px;
