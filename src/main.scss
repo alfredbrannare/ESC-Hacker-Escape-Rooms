@@ -94,6 +94,39 @@
 
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+
+
+.overlay {
+    display: none;
+
+    &.active {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.63);
+        cursor: pointer;
+        animation: fadeIn 0.2s;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -109,6 +142,7 @@ body {
     font-weight: 400;
     max-width: 1280px;
     margin: 0px auto;
+
 }
 
 .header {
@@ -142,6 +176,33 @@ body {
                 margin-top: 30px;
                 font-size: 40px;
                 margin-left: 24px;
+            }
+
+        }
+
+        .burger__icon {
+            display: flex;
+
+            @include desktop-screen {
+                display: none;
+            }
+
+            flex-direction: column;
+            float: right;
+            height: 26px;
+            width: 51px;
+            position: absolute;
+            top: 33px;
+            right: 20px;
+            cursor: pointer;
+            z-index: 2;
+
+            a {
+                width: 51px;
+                height: 0px;
+                margin: 5px 0px;
+                border-radius: 5px;
+                border: 3px solid #FFFFFF;
             }
 
         }
@@ -188,6 +249,52 @@ body {
 
         }
 
+    }
+
+    .nav.__mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: fixed;
+        background-color: #011827;
+        left: 3%;
+        right: 3%;
+        top: 3%;
+        bottom: 3%;
+        padding: 28rem 0rem 27rem;
+        animation: fadeIn 0.2s;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+
+            }
+
+        }
+
+        .closeNav {
+            position: absolute;
+            color: #E3170A;
+            background-color: transparent;
+            top: 1rem;
+            right: 1rem;
+            border: none;
+            font-size: 24px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
     }
 
 }
@@ -296,7 +403,7 @@ body {
                 width: auto;
                 max-width: 522px;
 
-                @include desktop-screen{
+                @include desktop-screen {
                     max-width: 545px;
                 }
 
@@ -332,7 +439,7 @@ body {
                         width: 72px;
                         height: 73px;
 
-                        @include desktop-screen{
+                        @include desktop-screen {
                             width: 96px;
                             height: 96px;
                         }
@@ -396,7 +503,7 @@ body {
             h2 {
                 font-size: 32px;
 
-                @include desktop-screen{
+                @include desktop-screen {
                     font-size: 36px;
                 }
 
@@ -416,7 +523,7 @@ body {
 
             overflow-x: scroll;
 
-            @include desktop-screen{
+            @include desktop-screen {
                 overflow-x: hidden;
             }
 
@@ -530,7 +637,7 @@ body {
         header {
             padding: 95px 0px 90px;
 
-            @include desktop-screen{
+            @include desktop-screen {
                 padding-top: 123px;
             }
 
@@ -826,7 +933,7 @@ body {
 
             }
 
-            .footer__nav--play{
+            .footer__nav--play {
                 margin-top: 22px;
             }
 
@@ -857,7 +964,7 @@ body {
             }
 
         }
-        
+
     }
 
 }
