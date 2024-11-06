@@ -123,8 +123,10 @@ body {
     font-weight: 700;
     margin-right: 115px;
   }
-  .header .nav ul li.nav__item--contact a {
+  .header .nav ul li a:hover {
     color: #8ACFE5;
+  }
+  .header .nav ul li.nav__item--contact a {
     margin-right: 0px;
   }
 }
@@ -139,7 +141,7 @@ body {
   right: 3%;
   top: 3%;
   bottom: 3%;
-  padding: 28rem 0rem 27rem;
+  padding: 6rem 0rem 10rem;
   animation: fadeIn 0.2s;
 }
 .header .nav.__mobile ul {
@@ -153,6 +155,9 @@ body {
   color: white;
   font-size: 36px;
   font-weight: 700;
+}
+.header .nav.__mobile ul li a:hover {
+  color: #8ACFE5;
 }
 .header .nav.__mobile .closeNav {
   position: absolute;
