@@ -32,6 +32,7 @@ burgerIcon.addEventListener("click", () => {
     closeNav.addEventListener("click", () => {
         headerNav.classList.remove("__mobile");
         burgerIcon.style.display = "flex";
+        closeNav.remove();
         overlayEffect.classList.remove("active");
     })
 })
